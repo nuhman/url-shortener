@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "a microservice that takes long URLs and squeezes them into fewer characters to make a link that is easier to share",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuhman/url-shortener.git"
+  },
+  "author": "nuhman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuhman/url-shortener/issues"
+  },
+  "homepage": "https://github.com/nuhman/url-shortener#readme"
+}
