@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL SHORTENER</title>
+    </head>
+    <body>
+        <div>
+            <h1><u>nanos - the nano url creator</u></h1>
+            <h3>URL Shortener Microservice built for <a href="https://freecodecamp.org">freecodecamp</a> API <a href="http://www.freecodecamp.com/challenges/basejump-url-shortener-microservice">Project</a></h3>
+            <p><b>Promises</b>:</p>
+            <ul>
+                <li>You can pass a URL as a parameter and you will receive a shortened URL in the JSON response.</li>
+                <li>When anyone visit that shortened URL, it will get redirected to the original link.</li>
+            </ul>
+            <p><b>Examples for creating nano URLs</b>:</p>
+            <ul>
+                <li><code>https://little-url.herokuapp.com/new/https://www.google.com</code></li>
+                <li><code>https://little-url.herokuapp.com/new/http://foo.com:80</code></li>
+            </ul>
+            <p><b>Example output</b>:</p>
+            <ul>
+                <li><code>{ "original_url":"http://foo.com:80", "short_url":"https://little-url.herokuapp.com/8170" }</code></li>
+            </ul>
+            <p>Now if you visit <code>https://little-url.herokuapp.com/2871</code>, 
+                you will be redirected to <code>https://www.google.com/</code></p>
+        </div>
+    </body>
+</html>

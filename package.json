@@ -4,6 +4,8 @@
   "description": "a microservice that takes long URLs and squeezes them into fewer characters to make a link that is easier to share",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/nuhman/url-shortener/issues"
   },
-  "homepage": "https://github.com/nuhman/url-shortener#readme"
+  "homepage": "https://github.com/nuhman/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "is-url": "^1.2.2",
+    "mongodb": "^2.2.33",
+    "shorthash": "0.0.2",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
 }
