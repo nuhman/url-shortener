@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/nuhman/url-shortener#readme",
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "is-url": "^1.2.2",
     "mongodb": "^2.2.33",
     "shorthash": "0.0.2",
